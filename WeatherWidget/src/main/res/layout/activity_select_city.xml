@@ -1,0 +1,132 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/weather_select_city_height"
+        android:layout_marginTop="@dimen/weather_select_city_top" >
+
+        <ImageView
+            android:id="@+id/select_city_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="11dp"
+            android:layout_marginRight="11dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:padding="5dp"
+            android:src="@mipmap/select_city_back" />
+
+        <EditText
+            android:id="@+id/city_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/select_city_back"
+            android:layout_alignTop="@id/select_city_back"
+            android:layout_toEndOf="@id/select_city_back"
+            android:layout_toStartOf="@+id/select_city_delect"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:hint="@string/weather_select_city"
+            android:inputType="text"
+            android:textColor="#505050"
+            android:focusable="false"
+            android:textColorHint="#33000000"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/select_city_delect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="11dp"
+            android:layout_marginRight="11dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:padding="5dp"
+            android:src="@mipmap/select_city_delete"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+     <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@mipmap/select_city_background" />
+
+    <RelativeLayout
+        android:id="@+id/rl_location_layout"
+        android:layout_width="match_parent"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/iv_location_icon"
+            android:layout_width="@dimen/weather_select_city_location_img_width"
+            android:layout_height="@dimen/weather_select_city_location_img_width"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/weather_select_city_location_img_margin"
+            android:layout_marginStart="@dimen/weather_select_city_location_img_margin"
+            android:src="@mipmap/weather_select_city_location_icon" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/weather_select_city_location_title_margin_top"
+            android:layout_toEndOf="@id/iv_location_icon"
+            android:text="@string/weather_select_city_location"
+            android:textColor="#505050"
+            android:textSize="@dimen/weather_select_city_location_title_size" />
+
+        <TextView
+            android:id="@+id/tv_location_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_title"
+            android:layout_marginBottom="@dimen/weather_select_city_location_title_margin_top"
+            android:layout_marginTop="@dimen/weather_select_city_location_title_line_height"
+            android:layout_toEndOf="@id/iv_location_icon"
+            android:text="@string/weather_select_city_location_ing"
+            android:textColor="#8d8d8d"
+            android:textSize="@dimen/weather_select_city_location_sub_info_size" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#e6e6e6" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+           <!--  android:layout_marginTop="-20dp" -->
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true" >
+
+            <LinearLayout
+                android:id="@+id/city_scroll"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+            </LinearLayout>
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/tv_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/weather_no_network"
+            android:textColor="#cacaca"
+            android:visibility="gone" />
+    </FrameLayout>
+
+</LinearLayout>

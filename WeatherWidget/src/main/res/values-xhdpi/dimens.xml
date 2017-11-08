@@ -1,0 +1,73 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+	<dimen name="weather_card_margin_top">43dp</dimen>
+	<dimen name="weather_card_padding_bottom">39dp</dimen>
+	<dimen name="weather_widget_width">321dp</dimen>
+	<dimen name="weather_widget_height">243dp</dimen>
+	<dimen name="weather_card_width">321dp</dimen>
+	<dimen name="weather_card_height">200dp</dimen>
+	<dimen name="weather_rain_width">285dp</dimen>
+	<dimen name="weather_rain_height">133dp</dimen>
+	<dimen name="weather_rain_top">20dp</dimen>
+	<dimen name="weather_rain_bottom">48dp</dimen>
+	
+	<dimen name="weather_bird_margin_bottom">135dp</dimen>
+	<dimen name="weather_bird_margin_left">44dp</dimen>
+	
+	<dimen name="weather_train_margin_left">10dp</dimen>
+	<dimen name="weather_train_margin_bottom">101dp</dimen>
+	<dimen name="weather_snow1_margin_top">11dp</dimen>
+	<dimen name="weather_snow2_margin_top">18dp</dimen>
+	
+	<dimen name="weather_snow_margin_horizontal">10dp</dimen>
+	<dimen name="weather_snow_margin_top">20dp</dimen>
+	<dimen name="weather_snow_margin_bottom">48dp</dimen>
+	
+	<dimen name="weather_select_city_item">56dp</dimen>
+	<dimen name="weather_select_city_padding">24dp</dimen>
+	<dimen name="weather_select_city_height">56dp</dimen>
+<!-- 	<dimen name="weather_select_city_top">24dp</dimen> -->
+	<dimen name="weather_select_city_top">0dp</dimen>
+	<dimen name="weather_select_city_view_height">12dp</dimen>
+	
+	<dimen name="weather_defalut_rotate_right">54dp</dimen>
+	<dimen name="weather_defalut_rotate_bottom">50dp</dimen>
+	
+		
+	<dimen name="weather_overcast_acorn2_margin_top">20dp</dimen>
+	<dimen name="weather_overcast_acorn2_margin_right">66dp</dimen>
+	<dimen name="weather_overcast_acorn1_margin_top">22dp</dimen>
+	<dimen name="weather_overcast_acorn1_margin_right">77dp</dimen>
+	
+	
+	<dimen name="overcast_filefly_margin_horizontal">10dp</dimen>
+	<dimen name="overcast_filefly_margin_top">67dp</dimen>
+	<dimen name="overcast_filefly_margin_bottom">69dp</dimen>
+	
+	<dimen name="steady_weather_click_width">160dp</dimen>
+	<dimen name="steady_weather_click_height">160dp</dimen>
+	
+	<dimen name="sunny_bird_margin_bottom">132dp</dimen>
+	<dimen name="sunny_bird_margin_right">99dp</dimen>
+	
+	<dimen name="sunny_light_margin_top">8dp</dimen>
+	<dimen name="sunny_wind_margin_left">10dp</dimen>
+	
+	<!-- add by lmjssjj -->
+	<dimen name="weather_select_city_location_height">64dp</dimen>
+	<dimen name="weather_select_city_location_img_width">20dp</dimen>
+	<dimen name="weather_select_city_location_img_margin">16dp</dimen>
+	<dimen name="weather_select_city_location_title_margin_top">15dp</dimen>
+	<dimen name="weather_select_city_location_title_line_height">2dp</dimen>
+	<dimen name="weather_select_city_location_title_size">16sp</dimen>
+	<dimen name="weather_select_city_location_sub_info_size">12sp</dimen>
+	
+	<dimen name="time_clock_miandian">0dp</dimen>
+	<dimen name="time_clock_miandian_padding">82dp</dimen>
+	<dimen name="date_clock_miandian_padding">0dp</dimen>
+	<dimen name="date_clock_miandian_margin">54dp</dimen>
+</resources>
